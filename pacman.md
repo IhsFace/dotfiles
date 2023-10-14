@@ -44,6 +44,7 @@
  - clang
  - cppcheck
  - jdk11-openjdk
+ - openal
  - qemu
  - virt-manager
  - virt-viewer
