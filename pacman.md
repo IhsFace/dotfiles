@@ -42,5 +42,6 @@
  - python-pipx
  - clang
  - cppcheck
+ - jdk11-openjdk
  - neovim
  - ripgrep
