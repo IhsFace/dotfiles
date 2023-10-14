@@ -4,6 +4,7 @@
  - nwg-look
  - nvm
  - watchman
+ - spotify
  - authy
  - zoom
  - android-studio
