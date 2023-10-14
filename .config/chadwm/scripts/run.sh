@@ -8,6 +8,7 @@ xbacklight -set 10 &
 feh --bg-fill ~/Pictures/wall/leaves-wall.png &
 xset r rate 200 50 &
 picom &
+pasystray &
 nm-applet &
 blueman-applet &
 
