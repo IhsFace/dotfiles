@@ -54,5 +54,4 @@
  - neovim
  - ripgrep
  - discord
- - spotify-launcher
  - obs-studio
