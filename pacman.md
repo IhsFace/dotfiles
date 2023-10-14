@@ -30,6 +30,7 @@
  - blueman
  - pavucontrol
  - light
+ - pasystray
  - gtk-layer-shell
  - qt5ct
  - kvantum
