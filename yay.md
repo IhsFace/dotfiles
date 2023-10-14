@@ -6,7 +6,6 @@
  - nvm
  - watchman
  - spotify
- - spotify-tray-git
  - authy
  - zoom
  - android-studio
