@@ -53,5 +53,6 @@
  - libguestfs
  - neovim
  - ripgrep
+ - thunar
  - discord
  - obs-studio
