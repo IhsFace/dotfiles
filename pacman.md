@@ -51,6 +51,7 @@
  - bridge-utils
  - openbsd-netcat
  - libguestfs
+ - ffmpeg4.4
  - neovim
  - ripgrep
  - thunar
