@@ -29,6 +29,7 @@
  - bluez-utils
  - blueman
  - pavucontrol
+ - pamixer
  - light
  - gtk-layer-shell
  - qt5ct
