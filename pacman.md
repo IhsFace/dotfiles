@@ -43,5 +43,16 @@
  - clang
  - cppcheck
  - jdk11-openjdk
+ - qemu
+ - virt-manager
+ - virt-viewer
+ - dnsmasq
+ - vde2
+ - bridge-utils
+ - openbsd-netcat
+ - libguestfs
  - neovim
  - ripgrep
+ - discord
+ - spotify-launcher
+ - obs-studio
