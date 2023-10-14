@@ -1,4 +1,5 @@
 # Yay Packages
+ - ttf-iosevka
  - eww
  - nwg-look
  - nvm
