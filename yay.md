@@ -3,6 +3,7 @@
  - eww
  - nwg-look
  - nvm
+ - watchman
  - authy
  - zoom
  - android-studio
