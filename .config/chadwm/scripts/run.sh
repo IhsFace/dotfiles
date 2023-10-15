@@ -8,6 +8,8 @@ xbacklight -set 10 &
 feh --bg-fill ~/Pictures/wall/leaves-wall.png &
 xset r rate 200 50 &
 picom &
+/usr/lib/polkit-kde-authentication-agent-1 &
+dunst &
 volnoti &
 nm-applet &
 blueman-applet &
