@@ -13,6 +13,8 @@
  - sof-firmware
  - pacman-contrib
  - gnome-keyring
+ - dunst
+ - polkit-kde-agent
  - libsecret
  - firefox
  - noto-fonts-emoji
