@@ -56,6 +56,7 @@
  - openbsd-netcat
  - libguestfs
  - ffmpeg4.4
+ - p7zip
  - neovim
  - ripgrep
  - thunar
