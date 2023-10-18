@@ -4,7 +4,7 @@ pkgUpdates() {
 	# updates=$(xbps-install -S -un | cut -d' ' -f2 | sort | uniq -c | xargs)
 	updates=$((pacman -Qu && yay -Qu) | wc -l) # arch
 
-	if [ "$updates" -eq 0 ]; then
+	if [ -z "$updates" ]; then
 		echo "Updated"
 	else
 		echo "$updates"" updates"

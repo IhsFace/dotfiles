@@ -20,7 +20,7 @@ pkg_updates() {
   updates=$({ timeout 20 pacman -Qu && yay -Qu || true; } | wc -l) # arch
   # updates=$({ timeout 20 aptitude search '~U' 2>/dev/null || true; } | wc -l)  # apt (ubuntu, debian etc)
 
-  if [ "$updates" -eq 0 ]; then
+  if [ -z "$updates" ]; then
     printf "  ^c$green^    Fully Updated"
   else
     printf "  ^c$green^    $updates"" updates"
