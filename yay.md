@@ -2,6 +2,7 @@
  - ttf-iosevka
  - volnoti
  - eww
+ - zzz
  - nwg-look
  - nvm
  - watchman
