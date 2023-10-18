@@ -16,6 +16,8 @@
  - dunst
  - polkit-kde-agent
  - libsecret
+ - slock
+ - opendoas
  - firefox
  - noto-fonts-emoji
  - pipewire
