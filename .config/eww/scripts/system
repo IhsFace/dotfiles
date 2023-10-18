@@ -2,9 +2,9 @@
 #
 pkgUpdates() {
 	# updates=$(xbps-install -S -un | cut -d' ' -f2 | sort | uniq -c | xargs)
-  updates=$(checkupdates 2>/dev/null | wc -l) # arch
+	updates=$((pacman -Qu && yay -Qu) | wc -l) # arch
 
-	if [ -z "$updates" ]; then
+	if [ "$updates" -eq 0 ]; then
 		echo "Updated"
 	else
 		echo "$updates"" updates"
@@ -12,7 +12,7 @@ pkgUpdates() {
 }
 
 battery() {
-	cat /sys/class/power_supply/BAT1/capacity
+	cat /sys/class/power_supply/BAT0/capacity
 }
 
 cpu() {
