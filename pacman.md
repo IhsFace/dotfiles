@@ -9,6 +9,10 @@
  - acpi
  - rofi
  - gd
+ - alsa-lib
+ - alsa-utils
+ - nvidia
+ - nvidia-utils
  - xdg-user-dirs
  - sof-firmware
  - pacman-contrib
@@ -62,5 +66,6 @@
  - neovim
  - ripgrep
  - thunar
+ - vlc
  - discord
  - obs-studio
