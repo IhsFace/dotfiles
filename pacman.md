@@ -1,13 +1,10 @@
 # Pacman Packages
  - alsa-lib
  - alsa-utils
- - sof-firmware
- - firefox
  - neofetch
  - htop
  - xclip
  - dotnet-sdk-7.0
- - python-pip
  - python-pipx
  - clang
  - cppcheck
@@ -20,10 +17,7 @@
  - bridge-utils
  - openbsd-netcat
  - libguestfs
- - ffmpeg4.4
  - p7zip
  - neovim
- - ripgrep
- - vlc
  - discord
  - obs-studio
