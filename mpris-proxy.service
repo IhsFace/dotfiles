@@ -1,0 +1,11 @@
+# ~/.config/systemd/user/mpris-proxy.service
+
+[Unit]
+Description=Forward bluetooth media controls to MPRIS
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/mpris-proxy
+
+[Install]
+WantedBy=default.target
