@@ -1,0 +1,12 @@
+# APT Packages
+ - python3-pip
+ - python3-venv
+ - gdb
+ - neofetch
+ - htop
+ - xclip
+ - dotnet-sdk-7.0
+ - clang
+ - cppcheck
+ - openjdk-11-jdk
+ - ppa:neovim-ppa/unstable
