@@ -10,4 +10,5 @@
  - cppcheck
  - openjdk-17-jdk
  - ripgrep
+ - watchman
  - ppa:neovim-ppa/unstable
