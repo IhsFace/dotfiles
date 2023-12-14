@@ -4,7 +4,6 @@
  - gdb
  - neofetch
  - xclip
- - dotnet-sdk-7.0
  - clang
  - cppcheck
  - openjdk-11-jdk
