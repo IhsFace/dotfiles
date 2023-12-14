@@ -7,4 +7,5 @@
  - clang
  - cppcheck
  - openjdk-11-jdk
+ - ripgrep
  - ppa:neovim-ppa/unstable
