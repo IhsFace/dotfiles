@@ -3,7 +3,6 @@
  - python3-venv
  - gdb
  - neofetch
- - htop
  - xclip
  - dotnet-sdk-7.0
  - clang
