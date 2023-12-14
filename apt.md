@@ -8,6 +8,6 @@
  - xclip
  - clang
  - cppcheck
- - openjdk-11-jdk
+ - openjdk-17-jdk
  - ripgrep
  - ppa:neovim-ppa/unstable
