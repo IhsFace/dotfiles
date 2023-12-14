@@ -3,5 +3,4 @@
  - matplotlib
  - pygame
  - pylint
- - pynvim
  - pyright
