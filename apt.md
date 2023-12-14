@@ -2,6 +2,8 @@
  - python3-pip
  - python3-venv
  - gdb
+ - zip
+ - unzip
  - neofetch
  - xclip
  - clang
