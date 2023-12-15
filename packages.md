@@ -1,4 +1,5 @@
-# APT Packages
+# Packages
+### APT Packages
  - python3-pip
  - python3-venv
  - gdb
@@ -11,4 +12,9 @@
  - openjdk-17-jdk
  - ripgrep
  - watchman
- - ppa:neovim-ppa/unstable
+
+### Snap Packages
+ - ngrok
+
+### Personal Package Archives
+ - neovim-ppa/unstable
