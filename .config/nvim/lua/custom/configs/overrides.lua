@@ -48,6 +48,14 @@ M.nvimtree = {
 }
 
 M.cmp = {
+  sources = {
+    { name = "nvim_lsp" },
+    { name = "path" },
+    { name = "luasnip" },
+    { name = "buffer" },
+    { name = "codeium" },
+    { name = "nvim_lua" },
+  },
   experimental = {
     ghost_text = true,
   },

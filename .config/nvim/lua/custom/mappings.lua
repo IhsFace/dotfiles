@@ -13,6 +13,18 @@ M.general = {
   },
 }
 
+M.shade = {
+  n = {
+    ["<Bslash>"] = {
+      function()
+        require("shade").toggle()
+      end,
+
+      "toggle shade.nvim",
+    },
+  },
+}
+
 M.lsp = {
   n = {
     ["<leader>fm"] = {

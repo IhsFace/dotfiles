@@ -3,9 +3,15 @@ local on_attach = configs.on_attach
 local capabilities = configs.capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "tsserver", "pyright", "clangd", "html", "cssls", "tailwindcss" }
+local servers = { "tsserver", "pyright", "html", "cssls", "jsonls", "tailwindcss" }
 
-capabilities.offsetEncoding = { "utf-16" }
+local custom_on_attach = function(client, bufnr)
+  on_attach(client, bufnr)
+
+  if client.server_capabilities.inlayHintProvider then
+    vim.lsp.inlay_hint(bufnr, true)
+  end
+end
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
@@ -14,8 +20,6 @@ for _, lsp in ipairs(servers) do
   }
 end
 
-vim.diagnostic.config({
-  virtual_text = false
-})
-vim.o.updatetime = 250
-vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
+require("typescript-tools").setup {
+  on_attach = custom_on_attach,
+}
