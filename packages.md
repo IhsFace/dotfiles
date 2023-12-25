@@ -7,7 +7,6 @@
  - unzip
  - neofetch
  - xclip
- - clang
  - openjdk-17-jdk
  - ripgrep
  - watchman
