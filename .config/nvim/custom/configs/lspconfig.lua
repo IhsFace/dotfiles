@@ -3,15 +3,7 @@ local on_attach = configs.on_attach
 local capabilities = configs.capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "tsserver", "pyright", "html", "cssls", "jsonls", "tailwindcss" }
-
-local custom_on_attach = function(client, bufnr)
-  on_attach(client, bufnr)
-
-  if client.server_capabilities.inlayHintProvider then
-    vim.lsp.inlay_hint(bufnr, true)
-  end
-end
+local servers = { "pyright", "html", "cssls", "jsonls", "tailwindcss" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
@@ -21,5 +13,7 @@ for _, lsp in ipairs(servers) do
 end
 
 require("typescript-tools").setup {
-  on_attach = custom_on_attach,
+  settings = {
+    tsserver_path = "/home/ihsaan/.nvm/versions/node/v20.10.0/lib/node_modules/typescript/lib/tsserver.js",
+  },
 }
