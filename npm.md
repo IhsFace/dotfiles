@@ -1,6 +1,7 @@
 # NPM Packages
  - @tailwindcss/language-server
  - corepack
+ - eslint_d
  - eslint
  - nodemon
  - npm
