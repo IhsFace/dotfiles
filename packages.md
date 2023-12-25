@@ -8,7 +8,6 @@
  - neofetch
  - xclip
  - clang
- - cppcheck
  - openjdk-17-jdk
  - ripgrep
  - watchman
